@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggdensity_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggdensity/ggdensity_{{ version }}.tar.gz
-  sha256: 2658c7ff85c74b22fbd959fbdba863cb0d0812012229faa36413e74d3fcb7915
+  sha256: d9747e294d83bedc45854092d4e4a5e05542f9449ad602bb793f0d6e9c0ad507
 
 build:
   merge_build_host: true  # [win]
