@@ -1,11 +1,11 @@
-About r-ggdensity
-=================
+About r-ggdensity-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggdensity-feedstock/blob/main/LICENSE.txt)
 
 Home: https://jamesotto852.github.io/ggdensity/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggdensity-feedstock/blob/main/LICENSE.txt)
 
 Summary: The 'ggplot2' package provides simple functions for visualizing contours of 2-d kernel density estimates. 'ggdensity' implements several additional density estimators as well as more interpretable visualizations based on highest density regions instead of the traditional height of the estimated density surface.
 
