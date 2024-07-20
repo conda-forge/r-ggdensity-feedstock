@@ -1,6 +1,5 @@
 {% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-ggdensity
@@ -13,8 +12,7 @@ source:
   sha256: d9747e294d83bedc45854092d4e4a5e05542f9449ad602bb793f0d6e9c0ad507
 
 build:
-  merge_build_host: true  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
