@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggdensity_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggdensity/ggdensity_{{ version }}.tar.gz
-  sha256: d9747e294d83bedc45854092d4e4a5e05542f9449ad602bb793f0d6e9c0ad507
+  sha256: 4ce2fda3bbc116bc9a985ac2aa52c7588354e680aa8eecba5925b68d11194dea
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -45,7 +45,8 @@ test:
 about:
   home: https://jamesotto852.github.io/ggdensity/
   license: MIT
-  summary: The 'ggplot2' package provides simple functions for visualizing contours of 2-d kernel density estimates. 'ggdensity' implements several additional density estimators as well as more interpretable visualizations based on highest density regions instead of the traditional height of the estimated density surface.
+  summary: The 'ggplot2' package provides simple functions for visualizing contours of 2-d kernel density estimates. 'ggdensity' implements several additional density estimators as well as more interpretable visualizations based on highest density regions instead of the traditional height of the estimated density 
+    surface.
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
